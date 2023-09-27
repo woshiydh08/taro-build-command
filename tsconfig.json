@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    // "skipLibCheck": true,
+    // "strict": true,
+    // "noEmit": false,
+    "target": "ES2017",
+    // "module": "Node16",
+    "moduleResolution": "Node"
+  },
+  "include": ["**/*.ts"]
+}

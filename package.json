@@ -1,0 +1,22 @@
+{
+  "name": "@ik-taro-build-tsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "inquirer": "^9.2.11",
+    "simple-git": "^3.20.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "tsx": "^3.13.0"
+  }
+}
