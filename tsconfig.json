@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "dist", // 输出目录
-    "skipLibCheck": true, // 跳过检查引入的库文件
+    // "skipLibCheck": true, // 跳过检查引入的库文件
     "strict": true, // 启用严格的类型检查
-    "target": "ES2018", // 目标 ECMAScript 版本
+    "target": "ES6", // 目标 ECMAScript 版本
     "module": "CommonJS", // 指定模块代码生成方式
     "moduleResolution": "Node", // 指定模块解析策略
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true, // 允许导入 CommonJS 模块
     "declaration": true // 生成对应的 .d.ts 类型声明文件
   },
