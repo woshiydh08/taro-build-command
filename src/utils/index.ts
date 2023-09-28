@@ -1,3 +1,2 @@
-export const transformObjectToArray = (obj: Record<string, string>) => {
-  return Object.entries(obj).map(([value, name]) => ({ name, value }))
-}
+export { transformObjectToArray, parseArgsToObj } from './format'
+export { default as getUserConfig } from './getUserConfig'
